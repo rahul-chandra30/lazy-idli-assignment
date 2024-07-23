@@ -1,0 +1,31 @@
+/* CustomModal.css */
+.custom-modal .modal-content {
+  background-color: #f0f0f0; /* Custom background color */
+  border-radius: 10px; /* Custom border radius */
+}
+
+.button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    margin: 5px;
+    cursor: pointer;
+}
+/* CustomModal.css */
+.custom-modal .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.blur-background {
+  filter: blur(5px);
+  transition: filter 0.3s;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
